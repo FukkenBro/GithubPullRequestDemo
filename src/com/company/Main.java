@@ -5,6 +5,13 @@ import java.util.Random;
 
 public class Main {
 
+//    1) сделать fork
+//    https://github.com/akadatsky/GithubPullRequestDemo
+//    2) Попрактиковаться со StreamApi и послать PullRequest
+//    3) Создать ISSUE в этом репозитории когда отправить пулл реквест
+//    В качестве ответа на задание прислать ссылку на issue
+
+
     private static final int SIZE = 100;
     private static final int MIN = 0;
     private static final int MAX = 50;
@@ -26,7 +33,7 @@ public class Main {
         System.out.println("Size = " + array.length);
         System.out.println(Arrays.toString(array));
         double avg = list.stream().mapToInt(Integer::parseInt).average().getAsDouble();
-        System.out.println("Average is "+avg);
+        System.out.println("Average is " + avg);
     }
 
 
